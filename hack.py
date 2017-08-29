@@ -102,20 +102,7 @@ def get_diff_location(image1,image2):
 
 ##生成鼠标轨迹，待优化
 def get_track(length):    
-	list=[]  
-	
-	for x in range(length+10):
-		list_item=[]
-		list_item.append(1)
-		list_item.append(0.0001)
-		list.append(list_item)
-	list.append([0,0.1])
-	for x in range(16):
-		list_item=[]
-		list_item.append(-1)
-		list_item.append(0.01)
-		list.append(list_item)
-	return list
+	//the important alorithmn
 
 
 
